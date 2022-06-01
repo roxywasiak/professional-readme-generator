@@ -1,11 +1,12 @@
 //1 import inquirer library//
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 //2 my questions to prompt the user //need the readme guide first
 const mainQuestions = [
   {
     type: "input",
-    name: "Title",
+    name: "title",
     message: "What is the title of your project?",
   },
   {
@@ -20,38 +21,84 @@ const mainQuestions = [
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "How do you use your application",
   },
   {
     type: "list",
-    name: "Licence",
+    name: "license",
     message: "Does your project require a license?",
+    choices: ["Apache2.0", "GNU Public v3.0", "MIT", "No license"],
   },
   {
     type: "input",
-    name: "Contributers",
-    messages: "Please enter any contributers",
+    name: "contributors",
+    messages: "Please enter any contributors",
   },
   {
     type: "input",
-    name: "Tests",
+    name: "tests",
     message: "Enter the test process for your application",
   },
   {
     type: "input",
-    name: "Email",
+    name: "email",
     message: "Please enter your email",
   },
 ];
 
+const generateReadMe = (answers) => {
+  //console.log("answers: " + JSON.stringify(answers));
+
+  return `# ${answers.title} ![MIT](https://img.shields.io/badge/MIT-License-green)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+## Description
+
+${answers.title}
+
+## Installation
+Please follow the instructions below:
+\`\`\`
+npm install
+\`\`\`
+## Usage
+Please follow the instructions below:
+\`\`\`
+npm run start
+\`\`\`
+## License
+MIT License
+
+## Contributing
+adawawdawdawdawdawdwa
+
+## Tests
+Please follow the instructions below:
+\`\`\`
+npm run test
+\`\`\`
+## Questions
+Please contact me on my email: myemail@email.com
+`;
+};
+
 // 3. declare your init function to ask questions
 const init = async () => {
-  // get answers for first set of questions
-  const answers = await inquirer.prompt(questions);
+  // 1. get answers for first set of questions
+  const answers = await inquirer.prompt(mainQuestions);
 
-  // display answers
-  console.log(answers);
+  // 2. Generate the Readme
+  const readMe = generateReadMe(answers);
+
+  // 3. write to file generate readme
+  fs.writeFileSync("generatedReadMe.md", readMe);
 };
 
 // 4. start your application
