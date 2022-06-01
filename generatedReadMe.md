@@ -14,23 +14,23 @@ haha
 ## Installation
 Please follow the instructions below:
 ```
-npm install
+ahaha
 ```
 ## Usage
 Please follow the instructions below:
 ```
-npm run start
+hahah
 ```
 ## License
 MIT License
 
 ## Contributing
-adawawdawdawdawdawdwa
+ajaj
 
 ## Tests
 Please follow the instructions below:
 ```
-npm run test
+jjaja
 ```
 ## Questions
-Please contact me on my email: myemail@email.com
+jaja

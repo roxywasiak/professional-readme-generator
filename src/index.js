@@ -66,26 +66,26 @@ ${answers.title}
 ## Installation
 Please follow the instructions below:
 \`\`\`
-npm install
+${answers.installation}
 \`\`\`
 ## Usage
 Please follow the instructions below:
 \`\`\`
-npm run start
+${answers.usage}
 \`\`\`
 ## License
 MIT License
 
 ## Contributing
-adawawdawdawdawdawdwa
+${answers.contributors}
 
 ## Tests
 Please follow the instructions below:
 \`\`\`
-npm run test
+${answers.tests}
 \`\`\`
 ## Questions
-Please contact me on my email: myemail@email.com
+${answers.email}
 `;
 };
 
