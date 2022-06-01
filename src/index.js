@@ -50,7 +50,7 @@ const mainQuestions = [
 const generateReadMe = (answers) => {
   //console.log("answers: " + JSON.stringify(answers));
 
-  return `# ${answers.title} ![MIT](https://img.shields.io/badge/MIT-License-green)
+  return `# Title: ${answers.title} ![MIT](https://img.shields.io/badge/MIT-License-green)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -60,6 +60,7 @@ const generateReadMe = (answers) => {
 - [Tests](#tests)
 - [Questions](#questions)
 ## Description
+
 
 ${answers.title}
 
