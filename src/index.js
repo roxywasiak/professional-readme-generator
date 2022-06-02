@@ -43,7 +43,12 @@ const mainQuestions = [
   {
     type: "input",
     name: "email",
-    message: "Please enter your GitHub email",
+    message: "Please enter your email",
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "Please enter your GitHub user name ",
   },
 ];
 
@@ -59,6 +64,7 @@ const generateReadMe = (answers) => {
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Github](#github)
 ## Description
 
 
@@ -87,6 +93,9 @@ ${answers.tests}
 \`\`\`
 ## Questions
 ${answers.email}
+
+## Github
+${answers.github}
 `;
 };
 

@@ -45,9 +45,9 @@ The readme which is generated
 
 # Video Link
 
-Watch the video walk-through of the application [CLICK](https://www.example.com)
+Watch the video walk-through of the application [CLICK](https://drive.google.com/file/d/17mhcA83_Fy-5R6v6rXrZ9Lv0jNho6c72/view?usp=sharing)
 
 # Contact Me
 
 Contact me via email [CLICK](ruksclone@hotmail.com)
-Contact me via GitHub [CLICK](roxywasiak@github.com)
+Contact me via GitHub [CLICK](https://github.com/roxywasiak)
