@@ -1,4 +1,4 @@
-# Title: hello roxy ![MIT](https://img.shields.io/badge/MIT-License-green)
+# Title: jjajaja ![MIT](https://img.shields.io/badge/GNU-License-green)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -10,28 +10,28 @@
 ## Description
 
 
-hello roxy
+jjajaja
 
 ## Installation
 Please follow the instructions below:
 ```
-ok
+kakakaka
 ```
 ## Usage
 Please follow the instructions below:
 ```
-yes maybe
+
 ```
 ## License
-MIT License
+GNU
 
 ## Contributing
-loads
+jajaja
 
 ## Tests
 Please follow the instructions below:
 ```
-tooo many
+aamamama
 ```
 ## Questions
-
+mammama

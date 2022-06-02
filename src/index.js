@@ -28,7 +28,7 @@ const mainQuestions = [
     type: "list",
     name: "license",
     message: "Does your project require a license?",
-    choices: ["Apache2.0", "GNU Public v3.0", "MIT", "No license"],
+    choices: ["Apache", "GNU", "MIT", "No license"],
   },
   {
     type: "input",
@@ -43,14 +43,14 @@ const mainQuestions = [
   {
     type: "input",
     name: "email",
-    message: "Please enter your email",
+    message: "Please enter your GitHub email",
   },
 ];
 
 const generateReadMe = (answers) => {
   //console.log("answers: " + JSON.stringify(answers));
 
-  return `# Title: ${answers.title} ![MIT](https://img.shields.io/badge/MIT-License-green)
+  return `# Title: ${answers.title} ![MIT](https://img.shields.io/badge/${answers.license}-License-green)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -75,7 +75,7 @@ Please follow the instructions below:
 ${answers.usage}
 \`\`\`
 ## License
-MIT License
+${answers.license}
 
 ## Contributing
 ${answers.contributors}
