@@ -50,4 +50,5 @@ Watch the video walk-through of the application [CLICK](https://drive.google.com
 # Contact Me
 
 Contact me via email [CLICK](ruksclone@hotmail.com)
+<br>
 Contact me via GitHub [CLICK](https://github.com/roxywasiak)
