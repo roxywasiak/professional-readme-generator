@@ -36,8 +36,12 @@ npm run start
 
 # Screenshots
 
-![alt text](image.jpg)
-![alt text](image.jpg)
+Start of the application
+![alt text](./src/images/app1.png)
+Questions appearing in the terminal
+![alt text](./src/images/appqs.png)
+The readme which is generated
+![alt text](./src/images/appreadme.png)
 
 # Video Link
 
@@ -46,3 +50,4 @@ Watch the video walk-through of the application [CLICK](https://www.example.com)
 # Contact Me
 
 Contact me via email [CLICK](ruksclone@hotmail.com)
+Contact me via GitHub [CLICK](roxywasiak@github.com)

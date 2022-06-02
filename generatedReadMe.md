@@ -1,4 +1,4 @@
-# Title: hahaha ![MIT](https://img.shields.io/badge/GNU-License-green)
+# Title: Hello World ![MIT](https://img.shields.io/badge/GNU-License-green)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -10,28 +10,28 @@
 ## Description
 
 
-hahaha
+Hello World
 
 ## Installation
 Please follow the instructions below:
 ```
-hahaha
+yes
 ```
 ## Usage
 Please follow the instructions below:
 ```
-hahaha
+npm run start
 ```
 ## License
 GNU
 
 ## Contributing
-ajjaa
+yes
 
 ## Tests
 Please follow the instructions below:
 ```
-ajajja
+tests
 ```
 ## Questions
-jajaja
+roxywasiak@github.com
