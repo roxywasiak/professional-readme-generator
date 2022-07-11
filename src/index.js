@@ -11,7 +11,7 @@ const mainQuestions = [
   },
   {
     type: "input",
-    name: "Description",
+    name: "description",
     message: "Enter a description of your project",
   },
   {
@@ -92,10 +92,10 @@ Please follow the instructions below:
 ${answers.tests}
 \`\`\`
 ## Questions
-${answers.email}
+Please contact me at${answers.email}with any questions you have about the project
 
 ## Github
-${answers.github}
+https://github.com/${answers.github}
 `;
 };
 
