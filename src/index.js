@@ -68,7 +68,7 @@ const generateReadMe = (answers) => {
 ## Description
 
 
-${answers.title}
+${answers.description}
 
 ## Installation
 Please follow the instructions below:
